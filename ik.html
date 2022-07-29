@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>ik</title>
+    <style>
+        h1::before {content: '\276F';}  
+        h1::after {content: '\276E';}
+        h1 {color: teal; font-size: 28px; text-align:center}
+        #p1 {font-size: 22px; text-align: center;}
+        * {font-family: sans-serif;}
+        .bgcolor {background-image: url(Adsız\ tasarım.png); margin: 0; width: 100%; background-size: cover;}
+        .forminf {display:inline-block; padding: 20px; padding-top: 0; border: 5px solid black; box-sizing: border-box;text-align: center; margin-right: 28%; margin-left: 28%;}
+        h3 {text-align: center;}
+        #pson {text-align: center; font-size: 22px;}
+        #pson::before{content: '\27AA';}
+        #linkedin {text-decoration: none; color: teal;}
+        #sayfasonu { font-family:monospace; background-color: rgb(23, 152, 118); margin: 0;}
+        hr {border-top: 5px solid rgb(55, 51, 51); margin: 0; margin-bottom: 0;}
+    </style>
+</head>
+<body style="margin:0;" class="bgcolor">
+
+    <header>
+        <nav class="main-nav">
+            <ul class="main-nav__items">
+                
+                <li class="main-nav__item"> 
+                    <a href="index.html" >Ana Sayfa</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="hakkimizda.html" >Hakkımızda</a>
+                </li>
+                
+                <li class="main-nav__item">
+                    <a href="projelerimiz.html" >Projelerimiz</a>
+                </li>
+                <li class="main-nav__item">
+                    <a href="ik.html" >IK</a>
+                </li>
+                   <li class="main-nav__item">
+                    <a href="iletisim.html" >İletişim</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <br><br>
+    
+        <h1 id="bci"><b> Bizimle Çalışmak İster Misiniz? </b></h1>
+        <p id="p1"><b>BNF Haritacılık Hizmetleri</b>'nin ayrıcalıklı ekibine katılmak için aşağıdaki formu doldurabilirsiniz.</p>
+        <br><br>
+        <div class="forminf">
+            <h3>Aday Bilgileri:</h3>
+            <form action="register.php">
+                <div>
+                    <label for="name">Adınız:</label>
+                    <input type="text" id="name">
+                </div>
+
+                <div>
+                    <label for="surname">Soyadınız:</label>
+                    <input type="text" id="surname">
+                </div>
+
+                <div>
+                    <label for="mail">E-mail Adresiniz:</label>
+                    <input type="email" name="mail" id="mail">
+                </div>
+
+                <div>
+                    <label for="parola">Parolanız:</label>
+                    <input type="password" name="parola" id="parola">
+                </div>
+
+                <div>
+                    <label for="datemax">Doğum Tarihiniz:</label>
+                    <input type="date" name="datemax" id="datemax" max="2000-01-01">
+                
+                    <label for="datemin">Doğum Tarihiniz:</label>
+                    <input type="date" name="datemin" id="datemin" min="1950-01-01">
+                </div>
+
+                <div>
+                    <label for="city">Yaşadığınız Şehir:</label>
+                    <select id="city">
+                        <option value="34">İstanbul</option>
+                        <option value="41">Kocaeli</option>
+                        <option value="54">Sakarya</option>
+                        <option value="17">Çanakkale</option>
+                    </select>
+                </div>
+
+                <div>
+                    <Label for="mycv">CV'nizi yükleyiniz. <i>(Yalnızca pdf dosyalarını kullanınız.)</i></Label>
+                    <input type="file" name="mycv" id="mycv">
+                </div>
+
+                <div>
+                    <label for="deneyim">Kaç yıllık iş deneyiminiz bulunuyor?</label>
+                    <input type="number" name="deneyim" id="deneyim">
+                </div>
+
+                <div>
+                    <button type="submit">Kaydet</button>
+                    <button type="reset">Sil</button>
+                </div>
+            </form>
+        </div>
+             <br><br>
+             <p id="pson"> Güncel iş ilanlarımızı <a id="linkedin" href="https://www.linkedin.com/company/bnf-hari%CC%87ta-m%C3%BChendi%CC%87sli%CC%87k/jobs/"><b>Linked In</b></a> üzerinden takip edebilirsiniz.</p>
+
+    <link rel="stylesheet" href="style.css">
+    <p id="sayfasonu">Bu sayfanın hakları saklıdır. @2022</p>
+
+</body>
+</html>
